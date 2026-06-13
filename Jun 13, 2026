@@ -40,6 +40,8 @@
     width: 100px;
     height: 50px;
     background: #594F7C;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 .half_circle{
   border-bottom-left-radius: 100px;
@@ -47,8 +49,7 @@
 }
 .half_circle_upside_down{
   margin-top: -10px;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  transform: rotate(180deg) scaleX(-1);
 }
 body{
   background: #EFEADE;
