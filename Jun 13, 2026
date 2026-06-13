@@ -1,33 +1,27 @@
 <div class="layout">
-  <div class="layout_top">
-    <div class="pair">
-      <div class="circle"></div>
-      <div class="half_circle"></div>
-    </div>
-    <div class="pair">
-      <div class="circle"></div>
-      <div class="half_circle"></div>
-    </div>
+  <div class="pair">
+    <div class="circle"></div>
+    <div class="half_circle"></div>
   </div>
   <div class="pair">
-      <div class="half_circle_upside_down"></div>
-      <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="half_circle"></div>
   </div>
 </div>
-
+<div class="pair">
+  <div class="half_circle_upside_down"></div>
+  <div class="circle"></div>
+</div>
 <style>
 .layout{
-  margin-top: 35px;
-}
-.layout_top{
+    margin-top: 35px;
     display: flex;
     justify-items: center;
     justify-content: center;
 }
 .pair{
     justify-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50;
 }
 .circle {
     width: 50px;
@@ -43,10 +37,6 @@
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
-.half_circle{
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
 .half_circle_upside_down{
   margin-top: -10px;
   transform: rotate(180deg) scaleX(-1);
@@ -54,4 +44,4 @@
 body{
   background: #EFEADE;
 }
-</style>
+</style
