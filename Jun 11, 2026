@@ -1,0 +1,54 @@
+<div class="center">
+  <div class="horizontal">
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+  </div>
+  <div class="vertical_white"></div>
+  <div class="vertical_black right_side"></div>
+  
+  <div class="vertical_black left_side"></div>
+  <div class="vertical_white"></div>
+  <div class="horizontal">
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+    <div class="horizontal_black"></div>
+  </div>
+</div>
+
+<style>
+  .vertical_black {
+    width: 20px;
+    height: 110px;
+    margin: 2px;
+    background: #333333;
+  }
+  .right_side{
+    margin-right: 10px;
+  }
+  .left_side{
+    margin-left: 10px;
+  }
+  .vertical_white{
+    width: 40px;
+    height: 110px;
+    background: #FFFFFF;
+    margin: 8px;
+  }
+  .horizontal_black{
+    width: 100px;
+    height: 20px;
+    background: #333333;
+    margin: 10 2 10 2;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  body{
+    background-color: #55C085;
+  }
+</style>
