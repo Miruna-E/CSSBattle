@@ -1,0 +1,26 @@
+<div class="center">
+  <div class="center" id="nut">
+    <div class="hole"></div>
+  </div>
+</div>
+<style>
+#nut {
+  width: 200px;
+  height: 200px;
+  background: #000000;
+  z-index: 2;
+}
+.hole{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  z-index: 4;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+</style>
