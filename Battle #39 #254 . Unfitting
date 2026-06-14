@@ -1,0 +1,44 @@
+<div class="layout">
+<div class="top"></div>
+<div class="top_circle"></div>
+<div class="bottom"></div>
+<div class="bottom_circle"></div>
+</div>
+<style>
+.top, .bottom{
+  width: 260px;
+}
+.top{
+  background: #F8B140;
+  height: 140px;
+}
+.bottom {
+   margin-top: 20px;
+   background: #CF6939;
+   height: 80px;
+ }
+.bottom_circle, .top_circle{
+  background: #2F434E;
+}
+.top_circle{
+  width: 180px;
+  height: 90px;
+  margin-top: -90px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+.bottom_circle{
+  width: 100px;
+  height: 50px;
+  margin-top: -80px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.layout{
+  margin-top: 30px;
+  justify-items: center;
+}
+body{
+  background: #2F434E;
+}
+</style>
